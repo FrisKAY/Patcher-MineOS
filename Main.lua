@@ -21,9 +21,11 @@ local installButton = layout:addChild(GUI.button(1, 1, 36, 3, 0xE1E1E1, 0x696969
 installButton.onTouch = function()
   installButton:remove()
   internet.download("https://github.com/Fronun/Wallpapers/raw/stable/wall/Intel.pic", "/patcher/Intel.pic")
-  GUI.alert(localization.ok)
   if switch.state then
+    GUI.alert(localization.okok)
     computer.shutdown(true)
+  else
+    GUI.alert(localization.ok)
   end
 end
 
