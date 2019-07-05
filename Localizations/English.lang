@@ -1,0 +1,6 @@
+{
+install = "Install",
+what = "Reboot PC after installed",
+version = "Version 0.1 [BETA]",
+ok = "Reboot please you PC",
+}
