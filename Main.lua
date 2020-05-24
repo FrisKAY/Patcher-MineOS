@@ -28,6 +28,7 @@ installButton.onTouch = function()
   internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Applications/Patcher.app/Modules/3_System/Icon.pic", "/Users/proot/Applications/Patcher.app/Modules/3_System/Icon.pic")
   internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Applications/Patcher.app/Modules/3_System/Main.lua", "/Users/proot/Applications/Patcher.app/Modules/3_System/Main.lua")
   internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Desktop/Patcher.ink", "/Users/proot/Desktop/Patcher.ink")
+  internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Desktop/.icons", "/Users/proot/Desktop/.icons")
   internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Settings.cfg", "/Users/proot/Settings.cfg")
   internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Versions.cfg", "/Users/proot/Versions.cfg")
   if switch.state then
