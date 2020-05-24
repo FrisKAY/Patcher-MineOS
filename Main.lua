@@ -20,7 +20,15 @@ local installButton = layout:addChild(GUI.button(1, 1, 36, 3, 0xE1E1E1, 0x696969
 	
 installButton.onTouch = function()
   installButton:remove()
-  internet.download("https://github.com/Fronun/Wallpapers/raw/stable/wall/Intel.pic", "/patcher/Intel.pic")
+  internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Applications/NewPatcher.app/Main.lua", "/Users/proot/Applications/NewPatcher.app/Main.lua")
+  internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Applications/NewPatcher.app/Icon.pic", "/Users/proot/Applications/NewPatcher.app/Icon.pic")
+  internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Applications/NewPatcher.app/Localizations/Russian.lang", "/Users/proot/Applications/NewPatcher.app/Localizations/Russian.lang")
+  internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Applications/NewPatcher.app/Modules/1_Disks/Icon.pic", "/Users/proot/Applications/NewPatcher.app/Modules/1_Disks/Icon.pic")
+  internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Applications/NewPatcher.app/Modules/1_Disks/Main.lua", "/Users/proot/Applications/NewPatcher.app/Modules/1_Disks/Main.lua")
+  internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Applications/NewPatcher.app/Modules/3_System/Icon.pic", "/Users/proot/Applications/NewPatcher.app/Modules/3_System/Icon.pic")
+  internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Applications/NewPatcher.app/Modules/3_System/Main.lua", "/Users/proot/Applications/NewPatcher.app/Modules/3_System/Main.lua")
+  internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Settings.cfg", "/Users/proot/Settings.cfg")
+  internet.download("https://raw.githubusercontent.com/FrisKAY/Patcher-MineOS/master/proot/Versions.cfg", "/Users/proot/Versions.cfg")
   if switch.state then
     GUI.alert(localization.okok)
     computer.shutdown(true)
